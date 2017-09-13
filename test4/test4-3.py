@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import cv2
 import numpy as np 
 
-image = cv2.imread("b.jpeg",0) 
+image = cv2.imread("../b.jpeg",0) 
 
 # 检测拐角
 # 与边缘检测不同，拐角的检测的过程稍稍有些复杂。

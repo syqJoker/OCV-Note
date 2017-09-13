@@ -4,7 +4,7 @@ import cv2
 import numpy as np   
 
 if __name__ == '__main__':
-	img = cv2.imread("mk.png")   
+	img = cv2.imread("../mk.png")   
 	emptyImage = np.zeros(img.shape, np.uint8)  
   
 	emptyImage2 = img.copy()  

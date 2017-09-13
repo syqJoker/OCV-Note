@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import cv2
 import numpy as np  
 
-img = cv2.imread("mk.png",0) 
+img = cv2.imread("../mk.png",0) 
 
 # 定义结构元素
 # 形态学处理的核心就是定义结构元素

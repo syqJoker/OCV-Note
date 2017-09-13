@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import cv2
 import numpy as np 
 
-img = cv2.imread("b.jpeg",0) 
+img = cv2.imread("../b.jpeg",0) 
 
 # 用形态学运算检测边和角点
 #构造一个3×3的结构元素   

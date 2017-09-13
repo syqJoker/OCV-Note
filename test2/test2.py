@@ -28,6 +28,6 @@ def test2(img):
 	return img
 
 if __name__ == '__main__':
-	img = cv2.imread('mk.png')
+	img = cv2.imread('../mk.png')
 	saltImage = salt(img,800)
 	cv2.imwrite("./test21.jpg", saltImage)  
